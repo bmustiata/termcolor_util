@@ -1,0 +1,10 @@
+version:
+  version: 1.0.0
+  files:
+    termcolor_util/__main__.py: 'cyan("v**VERSION**", bold=True))'
+    setup.py: version='**VERSION**',
+requirements:
+  version: $(bin/requires_versions.py)
+  files:
+    setup.py: install_requires=[**VERSION**],
+
