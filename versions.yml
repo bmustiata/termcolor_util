@@ -1,5 +1,5 @@
 version:
-  version: 1.0.0
+  version: 1.0.1
   files:
     termcolor_util/__main__.py: 'cyan("v**VERSION**", bold=True))'
     setup.py: version='**VERSION**',

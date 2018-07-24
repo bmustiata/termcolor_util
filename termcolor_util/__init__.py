@@ -1,4 +1,5 @@
 from termcolor import colored
+import sys
 
 
 def yellow(text: str, bold=False, underline=False) -> str:
@@ -95,3 +96,8 @@ def white(text: str, bold=False, underline=False) -> str:
         attrs.append("underline")
 
     return colored(text, color="white", attrs=attrs)
+
+
+def eprint(*args) -> None:
+    print(*args, file=sys.stderr)
+

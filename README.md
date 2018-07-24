@@ -27,3 +27,9 @@ def magenta(text: str, bold=False, underline=False) -> str: ...
 
 def white(text: str, bold=False, underline=False) -> str: ...
 ```
+
+Beside colors, there is a function for directly printing on the stderr.
+
+```python
+def eprint(*args) -> None: ...
+```

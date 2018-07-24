@@ -8,7 +8,7 @@ packages = find_packages()
 
 setup(
     name='termcolor_util',
-    version='1.0.0',
+    version='1.0.1',
     description='termcolor_util',
     long_description=readme,
     author='Bogdan Mustiata',
