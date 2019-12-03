@@ -1,1 +1,4 @@
-{NAME: py3-lib, arg0: termcolor_util, termcolor_util: true}
+arg0: termcolor_util
+templates:
+- py3/lib
+termcolor_util: true

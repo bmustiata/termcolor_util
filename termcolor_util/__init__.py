@@ -100,4 +100,3 @@ def white(text: str, bold=False, underline=False) -> str:
 
 def eprint(*args) -> None:
     print(*args, file=sys.stderr)
-
