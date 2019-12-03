@@ -1,18 +1,15 @@
-termcolor\_util
-===============
-
 ``termcolor_util`` is a set of functions on top of termcolor for every
 single color.
 
 Installation
-------------
+============
 
 .. code:: sh
 
     pip install termcolor_util
 
 Functions
----------
+=========
 
 .. code:: python
 

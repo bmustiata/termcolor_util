@@ -1,4 +1,5 @@
 arg0: termcolor_util
 templates:
 - py3/lib
+- gbs/init
 termcolor_util: true

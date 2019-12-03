@@ -17,5 +17,6 @@ setup(
     install_requires=["termcolor==1.1.0"],
     packages=packages,
     package_data={
-        '': ['*.txt', '*.rst']
+        '': ['*.txt', '*.rst'],
+        'termcolor_util': ['py.typed'],
     })
