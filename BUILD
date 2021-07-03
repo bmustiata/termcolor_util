@@ -1,7 +1,7 @@
 
 python_library(
     name="termcolor_util",
-    srcs=glob(["**/termcolor_util/__init__.py"]),
+    srcs=glob(["termcolor_util/__init__.py"]),
     deps=["//thirdparty/python:termcolor"],
 )
 
