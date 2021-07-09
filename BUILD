@@ -1,4 +1,4 @@
-load("//build/bazel:python.bzl", "python_library", "python_binary", "python_docker_container")
+load("//build/bazel:python.bzl", "python_library", "python_docker_container")
 
 
 python_library(
@@ -8,7 +8,7 @@ python_library(
   deps=["//thirdparty/python:termcolor"],
 )
 
-python_binary(
+python_library(
   name="termcolor-util-binary",
   deps=[
     ":termcolor-util"
