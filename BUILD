@@ -1,7 +1,6 @@
 load("@termcolor-util-pip//:requirements.bzl", "requirement")
 load("@io_bazel_rules_docker//python3:image.bzl", py3_image="py3_image")
 
-
 py_library(
   name='termcolor-util',
   srcs=[
