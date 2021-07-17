@@ -16,10 +16,11 @@ ge_python_library(
 )
 
 
-ge_python_binary(
-  name="termcolor-util-binary",
+ge_python_image(
+  name="termcolor-util-image",
   deps=[
     ":termcolor-util",
   ],
   main="termcolor_util/__main__.py",
 )
+
