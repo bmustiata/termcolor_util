@@ -1,10 +1,21 @@
 subinclude("//build/please:python.plz")
 
+package(default_visibility = ["PUBLIC"])
+
+
+python_library(
+  name="termcolor-util-lib",
+  deps=[
+    "//build/thirdparty/python:termcolor",
+  ],
+  srcs=glob(["termcolor_util/**/*.py"]),
+)
+
 
 ge_python_library(
   name="termcolor-util",
   deps=[
-    "//build/thirdparty/python:termcolor",
+    "//build/thirdparty/gepython:termcolor",
   ],
   srcs=glob(["termcolor_util/**/*.py"]),
 )
