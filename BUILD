@@ -1,4 +1,4 @@
-subinclude("//build/please:python.plz")
+subinclude("//_build/please:python.plz")
 
 package(default_visibility = ["PUBLIC"])
 
