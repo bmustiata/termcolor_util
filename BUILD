@@ -6,7 +6,7 @@ package(default_visibility = ["PUBLIC"])
 python_library(
   name="termcolor-util-lib",
   deps=[
-    "//build/thirdparty/python:termcolor",
+    "//_build/thirdparty/python:termcolor",
   ],
   srcs=glob(["termcolor_util/**/*.py"]),
 )
@@ -15,7 +15,7 @@ python_library(
 ge_python_library(
   name="termcolor-util",
   deps=[
-    "//build/thirdparty/gepython:termcolor",
+    "//_build/thirdparty/gepython:termcolor",
   ],
   srcs=glob(["termcolor_util/**/*.py"]),
 )
